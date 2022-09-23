@@ -1,4 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #E8E8E8;
 
+}
+
+
+.p-color{
+    color: #F4F4F4;
+}
+.button-bg-color{
+    background-color:#289BDE;
 }
