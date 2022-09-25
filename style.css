@@ -1,13 +1,27 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E8E8E8;
-
+}
+.btn-inner-text{
+    color: #289BDE;
+}
+.btn-border{
+    border: 2px solid  #289BDE;
 }
 
 
 .p-color{
-    color: #F4F4F4;
+    color: #777777;
 }
-.button-bg-color{
-    background-color:#289BDE;
+
+.bg-card{
+    background-color: #F4FAFD;
+}
+
+.register-bg-primary {
+   background-color:  #289BDE;
+}
+.price-text-primary{
+    color:  #289BDE;
+
 }
