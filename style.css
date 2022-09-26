@@ -5,16 +5,20 @@ body{
 .btn-inner-text{
     color: #289BDE;
 }
+
 .btn-border{
     border: 2px solid  #289BDE;
 }
 
 
 .p-color{
+    color: #F4F4F4;
+}
+.p-color1{
     color: #777777;
 }
 
-.bg-card{
+.bg-card {
     background-color: #F4FAFD;
 }
 
