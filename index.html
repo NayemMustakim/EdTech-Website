@@ -17,7 +17,7 @@
 <body>
   <header class=" pb-5" id="Home">
     <section class="container   mx-auto fixed-top  ">
-      <nav class="navbar py-2  navbar-expand-lg bg-light ">
+      <nav class="navbar  navbar-expand-lg bg-light ">
         <div class="container-fluid ">
           <a class="navbar-brand fw-bold fs-2 me-3 pe-2 text-dark " href="#">Advance Edu</a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
@@ -25,32 +25,37 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse ms-4  navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-5 ps-5 me-auto  mt-2  mb-2 mb-lg-0">
-              <li class="nav-item ms-3">
-                <a class="nav-link " aria-current="page" href="#Home">Home</a>
-              </li>
-              <li class="nav-item ms-3">
-                <a class="nav-link" href="#course">Courses</a>
-              </li>
+          <div class="d-flex align-items-center  justify-content-md-around   ">
+         <div class="collapse nav-fill  navbar-collapse text-center " id="navbarSupportedContent">
+            <ul class="navbar-nav  text-center navbar-collapse ms-5 ps-5 ">
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#course">Courses</a>
+          </li>
 
-              <li class="nav-item ms-3">
-                <a class="nav-link" href="#Deal">Deals</a>
-              </li>
-              <li class="nav-item ms-3">
-                <a class="nav-link" href="#Success">Success</a>
-              </li>
-              <li class="nav-item ms-3">
-                <a class="nav-link" href="#About-Us">About</a>
-              </li>
-              <li class="nav-item ms-3">
-                <a class="nav-link" href="#Register">Register</a>
-              </li>
-            </ul>
-            <div class="btn btn-inner-text btn-border border-2 fw-bold px-4" type="submit">Search</div>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#Deal">Deals</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#Success">Success</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#About-Us">About</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#Register">Register</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn btn-inner-text ms-5 d-none d-sm-block d-none d-lg-block  d-none d-xl-block
+      btn-border border-2 fw-bold " type="submit">Register</div>
+
 
           </div>
         </div>
+      
 
       </nav>
 
@@ -61,7 +66,7 @@
                  Carousel Image Slider
                  -->
 
-    <section class="container ">
+    <section class="container  ">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -117,11 +122,11 @@
                  -->
 
     <section class="container mx-auto mt-5 pb-4" id="course">
-      <div class="row row-cols-2  g-4">
-        <div class="col">
-          <div class="card d-flex flex-row ">
-            <div class="col-3"><img src="images/course/course-1.png" class="card-img-top h-100 w-100 " alt="..."></div>
-            <div class="card-body mt-4 ms-2 col-9">
+      <div class="row  row-cols-2   g-4">
+        <div class="col col-lg-6 col-md-12 col-12 ">
+          <div class="card  d-flex flex-row  ">
+            <div class="col-3  "><img src="images/course/course-1.png" class="img-fluid   card-img-top  w-100 " alt="..."></div>
+            <div class="card-body  mt-4 ms-2 col-9">
               <h5 class="card-title">Fundamental Of UI/UX Design</h5>
               <p class="card-text p-color1">Some quick example text to build on the card title and make up the bulk of
                 the card.</p>
@@ -130,7 +135,7 @@
             </div>
           </div>
         </div>
-        <div class="col ">
+        <div class="col col-lg-6 col-md-12 col-12 ">
           <div class="card d-flex flex-row ">
             <div class="col-3"><img src="images/course/course-2.png" class="card-img-top h-100 w-100 " alt="..."></div>
             <div class="card-body mt-4 ms-2 col-9">
@@ -142,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-lg-6 col-md-12 col-12">
           <div class="card d-flex flex-row ">
             <div class="col-3"><img src="images/course/course-3.png" class="card-img-top h-100 w-100 " alt="..."></div>
             <div class="card-body mt-4 ms-2 col-9">
@@ -154,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-lg-6 col-md-12 col-12">
           <div class="card d-flex flex-row ">
             <div class="col-3"><img src="images/course/course-4.png" class="card-img-top h-100 w-100 " alt="..."></div>
             <div class="card-body mt-4 ms-2 mx-auto col-9">
@@ -166,7 +171,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-lg-6 col-md-12 col-12">
           <div class="card d-flex flex-row ">
             <div class="col-3"><img src="images/course/course-5.png" class="card-img-top h-100 w-100 " alt="..."></div>
             <div class="card-body mt-4 ms-2 col-9">
@@ -178,7 +183,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-lg-6 col-md-12 col-12">
           <div class="card d-flex flex-row ">
             <div class="col-3"><img src="images/course/course-6.png" class="card-img-top h-100 w-100 " alt="..."></div>
             <div class="card-body mt-4 ms-2 col-9">
@@ -196,7 +201,7 @@
 
 
       </div>
-      <div class="btn register-bg-primary text-white btn-center d-grid gap-2 col-2 mt-4 fs-6 mx-auto">See More Courses
+      <div class="btn register-bg-primary text-white btn-center d-grid gap-2 col-3 mt-4 fs-6 mx-auto">See More Courses
       </div>
 
     </section>
@@ -318,8 +323,8 @@
         <p class="p-color1">It is a long established fact that a reader will be distracted by the <br> readable content
           of a page when looking at its layout.</p>
       </div>
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
+      <div class="row row-cols-4 g-4">
+        <div class="col col-md-6 col-lg-3 col-12">
           <div class="card h-100">
             <img src="images/student/student-1.png" class="card-img-top " alt="...">
             <div class="card-body">
@@ -328,7 +333,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-md-6 col-lg-3 col-12">
           <div class="card h-100">
             <img src="images/student/student-2.png" class="card-img-top bg-card" alt="...">
             <div class="card-body">
@@ -337,7 +342,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-md-6 col-lg-3 col-12">
           <div class="card h-100">
             <img src="images/student/student-3.png" class="card-img-top bg-card" alt="...">
             <div class="card-body">
@@ -346,7 +351,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-md-6 col-lg-3 col-12">
           <div class="card h-100">
             <img src="images/student/student-4.png" class="card-img-top bg-card" alt="...">
             <div class="card-body">
@@ -364,7 +369,7 @@
    FAQ Accordian Part
    -->
 
-    <section class="container w-50 pt-4 mb-4 ">
+    <section class="container w-75 pt-4 mb-4 ">
 
       <h5 class="fw-bold fs-2 text-center my-3">Frequently Asked Questions</h5>
       <p class="p-color1 text-center my-3">It is a long established fact that a reader will be distracted by the
@@ -440,8 +445,9 @@
   Trusted Companies Name
  -->
 
-    <section class="container mx-auto pt-5 mb-5 pb-3">
-      <h5 class="fw-bold fs-2 text-center my-3">Trusted by over 800+ companies</h5>
+    <section class="container d-none d-xl-block mx-auto pt-5 mb-5 pb-4
+    ">
+      <h4 class="fw-bold  text-center my-3">Trusted by over 800+ companies</h4>
       <div class="container d-flex align-items-center justify-content-between">
 
         <div class="h-50 w-0">
